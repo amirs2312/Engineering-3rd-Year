@@ -31,10 +31,10 @@ int main(){
     float approximation_f; 
 
     /// Calculate the value of the double approximation of pi/2 using 100000 iterations.
-    approximation_d = Wallis(10000);
+    approximation_d = Wallis(100000);
 
     /// Calculate the value of the float approximation of pi/2 using 100000 iterations.
-    approximation_f = Wallis_f(10000);
+    approximation_f = Wallis_f(100000);
 
 
     /// Calculate and assign the percentage error between the double approximation
@@ -66,7 +66,7 @@ double Wallis(int MAX_IT){
     
     /// Calculate the value of the infinte product.
     for(int i = 1;i<=MAX_IT;i++){
-        half_calculated_pi = half_calculated_pi*(4*i*i)/((4*i*i)-1);
+        half_calculated_pi = half_calculated_pi*(2*i)/((2*i)-1)*(2*i)/((2*i)+1);
     }
 
     
@@ -82,7 +82,7 @@ float Wallis_f(int MAX_IT){
     
     /// Calculate the value of the infinte product.
     for(int i = 1;i<=MAX_IT;i++){
-        half_calculated_pi = half_calculated_pi*(4*i*i)/((4*i*i)-1);
+        half_calculated_pi = half_calculated_pi*(2*i)/((2*i)-1)*(2*i)/((2*i)+1);
     }
 
   
