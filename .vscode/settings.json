@@ -20,13 +20,13 @@
         }
     },
     "cmake.configureEnvironment": {
-        "PICO_SDK_PATH": "D:\\Pico\\pico-sdk"
+        "PICO_SDK_PATH": "C:\\pico\\pico-sdk"
     },
     "cmake.generator": "NMake Makefiles",
     "cmake.configureOnOpen": true,
     "cmake.buildBeforeRun": true,
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "cortex-debug.openocdPath": "D:\\Pico\\tools\\openocd-picoprobe\\openocd.exe",
+    "cortex-debug.openocdPath": "C:\\Users\\saada\\Desktop\\pico-apps-saad\\tools\\openocd\\openocd.exe",
     "cortex-debug.enableTelemetry": false,
     "cortex-debug.registerUseNaturalFormat": false,
     "doxygen_runner.doxygen_command": "c:\\Program Files\\doxygen\\bin\\doxygen.exe",
